@@ -1,3 +1,10 @@
+'''
+Learning path, in this program I will be using KivyMD to create a password entering
+screen.
+---The code will validate the password. 
+---Give the user three attempts to enter the correct password before locking them out
+'''
+
 from kivy.uix.screenmanager import Screen
 from kivymd.app import MDApp
 from kivymd.uix.label import MDLabel
