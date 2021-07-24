@@ -22,11 +22,11 @@ MDScreen:
         pos_hint: {"center_x": 0.5, "center_y": 0.5} 
 
     MDTextField:
-        hint_text: "ENTER YOUR PPASSWORD"
-        halign: 'center'
+        hint_text: "ENTER YOUR PASSWORD"
+        size_hint: (0.6,0.1)
         line_color_focus: 1, 0, 1, 1
         color_mode: "custom"
-        pos_hint: {"center_y": 0.7}  
+        pos_hint: {"center_x": 0.5,"center_y": 0.6}  
 '''
 
 class PasswordApp(MDApp):
